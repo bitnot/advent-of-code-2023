@@ -20,10 +20,6 @@ def parse_game(line) -> Game:
     rgb = RGB(max(rgb_values[0]), max(rgb_values[1]), max(rgb_values[2]))
     return Game(int(game_id), rgb)
 
-
-def is_game_possible(game: Game, max_cubes: RGB) -> bool:
-    return all( a <= b for (a,b) in zip(game.rgb, max_cubes))
-
 if __name__ == "__main__":
     lines = sys.stdin.readlines()
     games = [parse_game(line) for line in lines]

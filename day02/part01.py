@@ -30,5 +30,4 @@ if __name__ == "__main__":
     games = [parse_game(line) for line in lines]
     possible_games = [game for game in games
                            if is_game_possible(game, max_cubes)]
-    #print(f"games={games}, possible={possible_games}")
     print(sum(game.id for game in possible_games))
