@@ -97,4 +97,17 @@ day07_test:
 	python3 ./day07/part02.py < day07/01_sample.txt
 
 	@echo 'Day 7 Part 2, input'
-	python3 ./day07/part02.py < day07/input.txt	
+	python3 ./day07/part02.py < day07/input.txt
+	
+day08_test:
+	@echo 'Day 8 Part 1, sample'
+	python3 ./day08/part01.py < day08/01_sample.txt
+
+	@echo 'Day 8 Part 1, input'
+	python3 ./day08/part01.py < day08/input.txt
+
+	@echo 'Day 8 Part 2, sample'
+	python3 ./day08/part02.py < day08/02_sample.txt
+
+	@echo 'Day 8 Part 2, input'
+	python3 ./day08/part02.py < day08/input.txt
