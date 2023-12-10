@@ -129,8 +129,8 @@ day10_test:
 	@echo 'Day 10 Part 1, sample'
 	python3 ./day10/part01.py < day10/01_sample.txt
 	
-	# @echo 'Day 10 Part 1, sample A'
-	# python3 ./day10/part01.py < day10/01a_sample.txt
+	@echo 'Day 10 Part 1, sample A'
+	python3 ./day10/part01.py < day10/01a_sample.txt
 
 	@echo 'Day 10 Part 1, sample 2'
 	python3 ./day10/part01.py < day10/02_sample.txt
@@ -138,8 +138,14 @@ day10_test:
 	@echo 'Day 10 Part 1, input'
 	python3 ./day10/part01.py < day10/input.txt
 
-	# @echo 'Day 10 Part 2, sample'
-	# python3 ./day10/part02.py < day10/01_sample.txt
+	@echo 'Day 10 Part 2, sample'
+	python3 ./day10/part02.py < day10/01_sample.txt
 
-	# @echo 'Day 10 Part 2, input'
-	# python3 ./day10/part02.py < day10/input.txt
+	@echo 'Day 10 Part 2, sample'
+	python3 ./day10/part02.py < day10/03_sample.txt
+
+	@echo 'Day 10 Part 2, sample'
+	python3 ./day10/part02.py < day10/04_sample.txt
+
+	@echo 'Day 10 Part 2, input'
+	python3 ./day10/part02.py < day10/input.txt
